@@ -24,7 +24,9 @@ int main()
 			res = stoi(A);
 		}
 	}
-	std::cout << t << "\t" << res << std::endl;
+	if (wasText) {
+		std::cout << t << "\t" << res << std::endl;
+	}
     return 0;
 }
 
